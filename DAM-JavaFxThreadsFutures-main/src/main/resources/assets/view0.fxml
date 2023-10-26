@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller0">
+   <children>
+      <Text layoutX="14.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exemple pool de tasques" wrappingWidth="560.13671875" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="4.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="button0" layoutX="586.0" layoutY="14.0" mnemonicParsing="false" onAction="#animateToView1" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="Completable Future" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="percentatge0" layoutX="90.0" layoutY="155.0" prefHeight="17.0" prefWidth="266.0" text="0%" />
+      <Label fx:id="percentatge1" layoutX="90.0" layoutY="283.0" prefHeight="17.0" prefWidth="266.0" text="0%" />
+      <Label fx:id="percentatge2" layoutX="90.0" layoutY="401.0" prefHeight="16.0" prefWidth="266.0" text="0%" />
+      <Rectangle fx:id="staticbar0" arcHeight="5.0" arcWidth="5.0" fill="#e5f2ff" height="33.0" layoutX="90.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="376.0" AnchorPane.leftAnchor="90.0" />
+      <Rectangle fx:id="staticbar1" arcHeight="5.0" arcWidth="5.0" fill="#e5f2ff" height="33.0" layoutX="90.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="376.0" />
+      <Rectangle fx:id="staticbar2" arcHeight="5.0" arcWidth="5.0" fill="#e5f2ff" height="33.0" layoutX="90.0" layoutY="417.0" stroke="BLACK" strokeType="INSIDE" width="376.0" />
+      <Rectangle fx:id="lowerbar0" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="90.0" layoutY="172.0" stroke="BLACK" strokeType="INSIDE" width="376.0" AnchorPane.leftAnchor="90.0" />
+      <Rectangle fx:id="lowerbar1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="90.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="376.0" AnchorPane.leftAnchor="90.0" />
+      <Rectangle fx:id="lowerbar2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="33.0" layoutX="90.0" layoutY="417.0" stroke="BLACK" strokeType="INSIDE" width="376.0" AnchorPane.leftAnchor="90.0" />
+      <Button fx:id="ButtonStartStop0" layoutX="568.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleClick" prefHeight="41.0" prefWidth="86.0" text="Iniciar" />
+      <Button fx:id="ButtonStartStop1" layoutX="568.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleClick" prefHeight="41.0" prefWidth="86.0" text="Iniciar" />
+      <Button fx:id="ButtonStartStop2" layoutX="568.0" layoutY="413.0" mnemonicParsing="false" onAction="#handleClick" prefHeight="41.0" prefWidth="86.0" text="Iniciar" />
+   </children>
+</AnchorPane>
